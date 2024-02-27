@@ -203,50 +203,52 @@ provided (here, $\omega$ is the angular frequency in $ rad/s $). The values of $
     \caption{Active Low Pass Filter}
     \label{fig: 1}
 \end{figure}
-\vspace{4cm}
-The given Op-Amp is first order active low pass filter, so low frequency $\brak{\omega = 0}$ gain of given low-pass filter is,
+\begin{align}
+V_{IN} - R_1i_1 - V_C =& 0\\
+\dfrac{dV_i\brak{t}}{dt} - R_1\dfrac{di_1}{dt} -\dfrac{i}{C} =& 0 \\
+\label{eqn:3}i_1\brak{s}=& \dfrac{V_{IN}\brak{s}s}{sR_1 +\dfrac{1}{C}}
+\end{align}
+\begin{align}
+V_C - R i_2 -V_0 =& 0\\
+\dfrac{i_1}{C} - R \dfrac{di_2}{dt} - \dfrac{d\brak{V_0\brak{t}}}{dt} =& 0\\
+\label{eqn:6}\dfrac{i_1\brak{s}}{C} - sRi_2\brak{s} =& sV_0\brak{s}
+\end{align}
+From \eqref{eqn:3} and \eqref{eqn:6},
+\begin{align}
+\label{eqn:7} \dfrac{sV_{IN}\brak{s}}{sR_1 C+1} - sRi_2\brak{s} =& sV_0\brak{s}
+\end{align}
+\begin{align}
+0- V_C =&i_2 R_1 \\
+\label{eqn:9} -\dfrac{i_1\brak{s}}{C}=& sR_1i_2\brak{s}
+\end{align}
+From \eqref{eqn:3}, \eqref{eqn:7} and \eqref{eqn:9} ,
+\begin{align}
+-\dfrac{V_{IN}\brak{s}}{R_{1}^2Cs + R_1} =& \dfrac{V_{IN}\brak{s}}{RsR_1C + R} - \dfrac{V_0\brak{s}}{R}
+\end{align}
 \begin{figure}[ht]
 	\centering
-    \includegraphics[width=\columnwidth]{figs/fig3.png}
-    \caption{Non-Inverting}
-    \label{fig: 1}
-\end{figure}
-
-The above 	OP-Amp circuit becomes as non-inverting closed loop Op-Amp, so gain $\brak {A_V}$ is,
-\begin{align}
-A_V =& \lfloor 1 + \dfrac{R}{1} \rfloor \\
-	=& 1+R
-\end{align}
-The $3-dB$ cut-off frequency of given low pass filter circuit is,
-\begin{align}
-\omega _{3dB} =& \dfrac{R_1}{C}  rad/s
-\end{align}
-
-\begin{figure}[ht]
-	\centering
-    \includegraphics[width=\columnwidth]{figs/fig4.png}
-    \caption{bode magnitude plot}
+    \includegraphics[width=\columnwidth]{figs/fig5.png}
+    \caption{bode plot}
     \label{fig: 2}
 \end{figure}
-Low frequency $\brak{\omega = 0}$ gain from bode magnitude plot is,
-\begin{align}
-\implies 12dB =& 20\text{ log}_{10}\brak{A_V} \\
-A_V =& \text{Antilog} \lfloor \dfrac{12}{20} \rfloor \\
-\implies 1+R =& 4\\
-R =& 3k\ohm
-\end{align}
 The 3-dB frequency from bode magnitude plot,
 \begin{align}
-\implies \text{ log}_{10}\: \omega_{3dB}=& 3\\
-\omega_{3dB} =& 1000 \: rad/sec 
+\implies \omega_{3dB} =& 1000 \: rad/sec 
 \end{align}
 \begin{align}
 \omega_{3dB} =& \dfrac{1}{R_1 C}\\
-			 =& 1000
+\implies C =& 1\mu F  
 \end{align}
 \begin{align}
-\implies C =& \dfrac{1}{1000 R_1}\\
-  =& 1\mu F
+\implies A\brak{s} =& \dfrac{V_{OUT}\brak{s}}{V_{IN}\brak{s}}\\
+  		  =& \dfrac{1+10^{-3}R}{1+sC10^3}\\		
+  	   |A\brak{s}| =& \dfrac{1+10^{-3}R}{\sqrt{1+\omega^210^{-6}}}	\\
 \end{align}
-Hence, the correct option is \brak{A}.
+$A_V$ at low frequency,
+\begin{align}
+|A_V| =& 1+ 10^{-3}R \\
+1+ 10^{-3}R =& 10^{\dfrac{3}{5}}\\
+R =& 3k\ohm
+\end{align}
+Hence, The correct option is \brak{A}.
 \end{document}

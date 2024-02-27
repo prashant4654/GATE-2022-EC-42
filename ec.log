@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.5)  26 FEB 2024 11:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.5)  27 FEB 2024 18:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1276,9 +1276,6 @@ File: ot1txr.fd 2000/12/15 v3.1
 
 LaTeX Warning: Label `fig: 1' multiply defined.
 
-
-LaTeX Warning: Label `fig: 1' multiply defined.
-
 )
 \openout1 = `ec.aux'.
 
@@ -1469,27 +1466,21 @@ File: figs/fig2.png Graphic file (type png)
 <use figs/fig2.png>
 Package pdftex.def Info: figs/fig2.png  used on input line 202.
 (pdftex.def)             Requested size: 252.0pt x 142.69743pt.
-<figs/fig3.png, id=10, 668.4975pt x 376.40625pt>
-File: figs/fig3.png Graphic file (type png)
-<use figs/fig3.png>
-Package pdftex.def Info: figs/fig3.png  used on input line 210.
-(pdftex.def)             Requested size: 252.0pt x 141.8929pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+<figs/fig5.png, id=15, 722.7pt x 433.62pt>
+File: figs/fig5.png Graphic file (type png)
+<use figs/fig5.png>
+Package pdftex.def Info: figs/fig5.png  used on input line 230.
+(pdftex.def)             Requested size: 252.0pt x 151.20026pt.
  [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/
 local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
- <./figs/fig1.png> <./figs/fig2.png> <./figs/fig3.png>]
-<figs/fig4.png, id=36, 624.3325pt x 321.2pt>
-File: figs/fig4.png Graphic file (type png)
-<use figs/fig4.png>
-Package pdftex.def Info: figs/fig4.png  used on input line 227.
-(pdftex.def)             Requested size: 252.0pt x 129.64418pt.
- [2
+ <./figs/fig1.png> <./figs/fig2.png>] [2
 
- <./figs/fig4.png>] (./ec.aux)
+ <./figs/fig5.png>] (./ec.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -1497,13 +1488,13 @@ Package rerunfilecheck Info: File `ec.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 47514 strings out of 476025
- 1107414 string characters out of 5790018
- 1869388 words of memory out of 5000000
- 67207 multiletter control sequences out of 15000+600000
- 580026 words of font info for 172 fonts, out of 8000000 for 9000
+ 47519 strings out of 476025
+ 1107411 string characters out of 5790018
+ 1882388 words of memory out of 5000000
+ 67205 multiletter control sequences out of 15000+600000
+ 581342 words of font info for 174 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,12n,96p,1170b,445s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,14n,96p,1170b,445s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></us
 r/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/loca
 l/texlive/2023/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texli
@@ -1511,10 +1502,10 @@ ve/2023/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2023
 /texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2023/texmf-dis
 t/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/ty
 pe1/urw/times/utmri8a.pfb>
-Output written on ec.pdf (2 pages, 160842 bytes).
+Output written on ec.pdf (2 pages, 138302 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
- 25 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 102 PDF objects out of 1000 (max. 8388607)
+ 77 compressed objects within 1 object stream
+ 31 named destinations out of 1000 (max. 500000)
+ 28 words of extra memory for PDF output out of 10000 (max. 10000000)
 

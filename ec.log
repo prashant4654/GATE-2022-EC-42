@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.5)  27 FEB 2024 18:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.5)  28 FEB 2024 11:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1466,21 +1466,18 @@ File: figs/fig2.png Graphic file (type png)
 <use figs/fig2.png>
 Package pdftex.def Info: figs/fig2.png  used on input line 202.
 (pdftex.def)             Requested size: 252.0pt x 142.69743pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 <figs/fig5.png, id=15, 722.7pt x 433.62pt>
 File: figs/fig5.png Graphic file (type png)
 <use figs/fig5.png>
-Package pdftex.def Info: figs/fig5.png  used on input line 230.
+Package pdftex.def Info: figs/fig5.png  used on input line 225.
 (pdftex.def)             Requested size: 252.0pt x 151.20026pt.
  [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/
 local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
- <./figs/fig1.png> <./figs/fig2.png>] [2
+ <./figs/fig1.png> <./figs/fig2.png> <./figs/fig5.png>] [2
 
- <./figs/fig5.png>] (./ec.aux)
+] (./ec.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -1488,9 +1485,9 @@ Package rerunfilecheck Info: File `ec.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 47519 strings out of 476025
- 1107411 string characters out of 5790018
- 1882388 words of memory out of 5000000
+ 47514 strings out of 476025
+ 1107346 string characters out of 5790018
+ 1876388 words of memory out of 5000000
  67205 multiletter control sequences out of 15000+600000
  581342 words of font info for 174 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
@@ -1502,10 +1499,10 @@ ve/2023/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2023
 /texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2023/texmf-dis
 t/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/ty
 pe1/urw/times/utmri8a.pfb>
-Output written on ec.pdf (2 pages, 138302 bytes).
+Output written on ec.pdf (2 pages, 137704 bytes).
 PDF statistics:
- 102 PDF objects out of 1000 (max. 8388607)
- 77 compressed objects within 1 object stream
- 31 named destinations out of 1000 (max. 500000)
+ 96 PDF objects out of 1000 (max. 8388607)
+ 71 compressed objects within 1 object stream
+ 26 named destinations out of 1000 (max. 500000)
  28 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -204,24 +204,19 @@ provided (here, $\omega$ is the angular frequency in $ rad/s $). The values of $
     \label{fig: 1}
 \end{figure}
 \begin{align}
-V_{IN} - R_1i_1 - V_C =& 0\\
-\dfrac{dV_i\brak{t}}{dt} - R_1\dfrac{di_1}{dt} -\dfrac{i}{C} =& 0 \\
-\label{eqn:3}i_1\brak{s}=& \dfrac{V_{IN}\brak{s}s}{sR_1 +\dfrac{1}{C}}
+\label{eqn:1}sR_1i_1\brak{s} +\dfrac{i_1\brak{s}}{C}=& V_{IN}\brak{s}s
 \end{align}
 \begin{align}
-V_C - R i_2 -V_0 =& 0\\
-\dfrac{i_1}{C} - R \dfrac{di_2}{dt} - \dfrac{d\brak{V_0\brak{t}}}{dt} =& 0\\
-\label{eqn:6}\dfrac{i_1\brak{s}}{C} - sRi_2\brak{s} =& sV_0\brak{s}
+\label{eqn:2}\dfrac{i_1\brak{s}}{C} - sRi_2\brak{s} =& sV_0\brak{s}
 \end{align}
-From \eqref{eqn:3} and \eqref{eqn:6},
+From \eqref{eqn:1} and \eqref{eqn:2},
 \begin{align}
-\label{eqn:7} \dfrac{sV_{IN}\brak{s}}{sR_1 C+1} - sRi_2\brak{s} =& sV_0\brak{s}
+\label{eqn:3} \dfrac{sV_{IN}\brak{s}}{sR_1 C+1} - sRi_2\brak{s} =& sV_0\brak{s}
 \end{align}
 \begin{align}
-0- V_C =&i_2 R_1 \\
-\label{eqn:9} -\dfrac{i_1\brak{s}}{C}=& sR_1i_2\brak{s}
+\label{eqn:4} -\dfrac{i_1\brak{s}}{C}=& sR_1i_2\brak{s}
 \end{align}
-From \eqref{eqn:3}, \eqref{eqn:7} and \eqref{eqn:9} ,
+From \eqref{eqn:1}, \eqref{eqn:2} and \eqref{eqn:4} ,
 \begin{align}
 -\dfrac{V_{IN}\brak{s}}{R_{1}^2Cs + R_1} =& \dfrac{V_{IN}\brak{s}}{RsR_1C + R} - \dfrac{V_0\brak{s}}{R}
 \end{align}
@@ -231,6 +226,8 @@ From \eqref{eqn:3}, \eqref{eqn:7} and \eqref{eqn:9} ,
     \caption{bode plot}
     \label{fig: 2}
 \end{figure}
+\vspace{2cm}
+
 The 3-dB frequency from bode magnitude plot,
 \begin{align}
 \implies \omega_{3dB} =& 1000 \: rad/sec 
